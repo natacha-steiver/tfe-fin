@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.min.css">
+  <title>Document</title>
+</head>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src='./vendor/js/main.js'></script>
+<body >
+
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <header>
+
+    <nav id="navigation" class="close">
+    <div id="menuHamburger" class="toggle">
+      <span id="span1"></span>
+      <span id="span2"></span>
+      <span id="span3"></span>
+
+    </div>
+      <ul id="menu" >
+        <li>
+          <a href="#profil">Profil</a>
+
+
+        </li>
+        <li>  <a href="#sites">Site</a></li>
+        <li>    <a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <img class="logo" src="./images/logo.png" alt="logo Webdeveloper"/>
+    <aside>
+      <ul  class="icone">
+        <li><a href="#"><img src="./images/fb.png" alt="facebook"/></a></li>
+        <li><a href="#"><img src="./images/youtube.png" alt="youtube"/></a></li>
+        <li><a href="#"><img src="./images/fb.png" alt="facebook"/></a></li>
+      </ul>
+
+  <div id="scroll">
+    <img src="./images/ligne.png" alt="">
+    <a href="#profil">scroll</a>
+
+  </div>
+    </aside>
+    <button type="button" name="button">
+      <a href="#sites">Retrouvez mes traveaux</a>
+    </button>
+    <div class="video-background">
+        <div class="video-foreground">
+          <iframe src="./video/background.mp4" frameborder="0" allow = "autoplay " allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+<pre id="typewriter">
+<span class="var-highlight">var</span> Webdeveloper = {
+    personne: <span class="string-highlight">'STEIVER Natacha'</span>,
+    spécialités:[<span class="string-highlight">' javascript'</span>,
+               <span class="string-highlight">'MEAN stack'</span>];
+}; </pre>
+
+
+
+  <!--
+  <h1>STEIVER Natacha</h1>
+  <h2>Webdeveloper</h2>
+-->
+
+
+  </header>
+
+<main>
+
+<section id="menuAnim" >
+  <h2>Menu</h2>
+  <img class="logo" src="./images/logo.png" alt="logo Webdeveloper"/>
+  <ul id="menu">
+    <li>
+      <a href="#profil">Profil</a>
+    </li>
+    <li>  <a href="#sites">Site</a></li>
+    <li>
+      <a href="#contact">Contact</a></li>
+
+    </li>
+  </ul>
+
+</section>
+
+<section id="profil">
+  <h2>01 <span>- profil</span></h2>
+
+  <iframe width="541.5" height="304.5" src="https://www.youtube.com/embed/pjshaAi9l0s" frameborder="0" allow="accelerometer; autoplay;loop; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+
+<div>
+
+  <p>
+L'informatique est une passion qui m'a été transmise par mon père.
+Etant curieuse et aimant la résolution de problèmes et la recherche depuis toute petite, je me suis naturellement orienté vers
+le métier de technicienne en informatique avant de me lancer dans un projet plus concret qui est la programmation.  </p>
+<p>Après une expérience en autodidacte dans les nouvelles technologies, je me suis passionnée pour le javascript.
+Je m'intèresse aux frameworks front-end tels que Angular (version > 2) et React.js.
+Côté back-end, je préfère les bases de données no-sql comme MongoDB avec une api en Node.js/Express.js.
+Cependant, je restes ouverte au php et au sql qui a été la base de mon apprentissage lors de mon BES Webdeveloper à l'IEPS de Fléron.</p>
+
+  <button type="button" name="button"><a href="./cv.pdf">Mon CV</a></button>
+
+</div>
+</section>
+<section id="admin">
+
+</section>
+<section id="contact">
+
+
+</section>
+<section id="dialogflow">
+    <img id="agent" src="./images/logo2.png" alt="logo Webdeveloper"/>
+    <img  src="./images/close.png" alt="logo Webdeveloper"/>
+  <iframe class="none"
+      allow="microphone;"
+      width="350"
+      height="430"
+      src="https://console.dialogflow.com/api-client/demo/embedded/9675e661-4f37-4a99-b020-70c17de790d9">
+  </iframe>
+</section>
+
+</main>
+<footer>
+  <ul  id="icone">
+    <li><a href="#"><img src="./images/fb.png" alt="facebook"/></a></li>
+    <li><a href="#"><img src="./images/youtube.png" alt="youtube"/></a></li>
+    <li><a href="#"><img src="./images/fb.png" alt="facebook"/></a></li>
+  </ul>
+  <a href="/admin">Administration</a>
+</footer>
+</body>
+</html>

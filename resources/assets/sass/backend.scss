@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+input,label,textarea{
+  display: block;
+}
+.formulaireAdd{
+width: 30%;
+border: 1px solid #000;
+padding: 2em;
+margin: 0 2em;
+display: inline-block;
+img:nth-of-type(1){
+  float: right;
+  width: 40%;
+}
+input,textarea{
+  margin-top: 1em;
+  padding: .5em;
+}
+}
+.guide{
+  position: absolute;
+  width: 50%;
+  color:#707092;
+  background: #fbf5f5;
+  padding: 2em;
+  margin: 2em;
+
+  display: inline-block;
+}
+.form{
+  margin-left: 5em;
+
+}
+
+
+.bandeau{
+color:#000;
+width: 30%;
+display:inline-block;
+margin-right: 1em;
+}
+.form{
+  label{
+    margin: 1em 0 0 0;
+  }
+  textarea,input{
+    display: block;
+    margin: 0 0 1em 0;
+
+  }
+}
+.update{
+  position: relative;
+form{
+  width: 50%;
+  display: inline-block;
+  textarea,input{
+    display: block;
+    margin: .5em 0;
+
+  }
+  textarea{
+    min-width: 80%;
+    min-height: 30em;
+  }
+}
+  #imgForm{
+    width: 15%;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+  }
+}
+
+
+//responsive
+
+
+
+.addSoluce{
+  #addImg{
+    max-width: 25%;
+  }
+  #imgForm{
+    max-width: 25%;
+  }
+}
+#imgForm{
+  max-width: 15%;
+}
+form{
+  input,textarea{
+    width: 100%;
+  }
+}

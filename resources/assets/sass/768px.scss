@@ -1,0 +1,22 @@
+//a partir de 768px
+
+@media screen and (min-width:768px){
+  .conteneur{
+  max-width:23%;
+
+  }
+  .align-block{
+    display: inline-block;
+  }
+}
+
+
+.center{
+  align-items: center;
+}
+
+
+
+  .centerBox{
+  margin: 0 auto;
+  }
